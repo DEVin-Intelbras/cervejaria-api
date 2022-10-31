@@ -25,7 +25,7 @@ export class CervejaService {
     );
   }
 
-  public async buscarCervejas(page, size) {
+  public async buscarCervejas(page: number, size: number) {
     const indiceInicial = page * size;
     const indiceFinal = indiceInicial + size;
 
